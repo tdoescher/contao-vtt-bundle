@@ -1,0 +1,3 @@
+services:
+    tdoescher\VttBundle\EventListener\GetContentElementListener:
+        autoconfigure: true

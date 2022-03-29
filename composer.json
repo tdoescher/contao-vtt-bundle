@@ -1,0 +1,26 @@
+{
+    "name": "tdoescher/vtt-bundle",
+    "description": "Erweitert den Contao Video-Player um die Unterstützung von Untertiteln (.vtt)",
+    "type": "contao-bundle",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Torben Döscher",
+            "email": "mail@tdoescher.de",
+            "homepage": "https://tdoescher.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "contao/core-bundle": "^4.11"
+    },
+    "extra": {
+        "contao-manager-plugin": "tdoescher\\VttBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "tdoescher\\VttBundle\\": "src/"
+        }
+    }
+}

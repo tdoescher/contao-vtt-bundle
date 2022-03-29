@@ -1,0 +1,1 @@
+<track src="<?php echo $this->src ?>"<?php if($this->label): ?> label="<?php echo $this->label ?>"<?php endif; ?><?php if($this->kind): ?> kind="<?php echo $this->kind ?>"<?php endif; ?><?php if($this->srclang): ?> srclang="<?php echo $this->srclang ?>"<?php endif; ?><?php if($this->default): ?> default<?php endif; ?>/>
